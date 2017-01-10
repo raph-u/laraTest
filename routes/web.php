@@ -26,3 +26,5 @@ Route::get('articles', 'CardsController@index');
 Route::get('articles/{article}', 'CardsController@show');
 
 Route::get('test', 'PagesController@test');
+
+Route::get('clickTest', 'PagesController@clickTest');
